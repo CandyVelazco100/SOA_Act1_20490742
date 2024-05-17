@@ -1,0 +1,90 @@
+body {    
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo del cuerpo */
+}
+
+.nav-wrapper {
+    background-color: #343a40; /* Color de fondo de la barra de navegación */
+    padding: 10px 20px; /* Espaciado alrededor del logotipo */
+}
+
+.nav-wrapper a {
+    color: #fff; /* Color del texto del logotipo */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo del contenido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h1 {
+    background-color: #007bff; /* Color de fondo del título */
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    color: #fff; /* Color del texto del título */
+    padding: 10px; /* Espaciado alrededor del título */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+h6 {
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden; /* Evitar que los bordes redondeados se vean mal con scroll */
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Borde inferior gris */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo de las celdas del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+}
+
+thead {
+    font-family: "Bungee", sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: #f8f9fa; 
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; /* Cambio de color al pasar el cursor */
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el cursor */
+}
+
+footer {    
+    background-color: #E8E1FD; /* Color de fondo del footer */    
+    color: #000000; 
+    padding: 20px; 
+    text-align: center;
+}
+
